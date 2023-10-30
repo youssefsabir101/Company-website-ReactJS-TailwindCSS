@@ -1,14 +1,8 @@
-
 :root {
     --first-color: #1E88E5;
     --second-color: #0D47A1;
     --backround-color: #ebebeb;
   }
-
-
-
-
-
 body::-webkit-scrollbar {
     width: 10px;
   }
@@ -18,3 +12,17 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background: var(--first-color);
   }
+
+.max-words {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Adjust the number of lines as needed */
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (min-width: 641px) and (max-width: 700px) {
+  .you {
+    display: none;
+  }
+}

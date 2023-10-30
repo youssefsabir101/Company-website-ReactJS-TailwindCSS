@@ -1,12 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import {motion, useInView, useAnimation} from 'framer-motion';
-
 const CallToAction = () => {
     const {innerWidth: Width} = window;
     const ref = useRef();
     const isInView = useInView(ref)
     const mainControlls = useAnimation(isInView);
-    //use effect when page loads
+    
     useEffect(()=> {
         if(isInView) {
             mainControlls.start("visible")
@@ -32,13 +31,13 @@ const CallToAction = () => {
                   class="w-full px-4 lg:w-1/2"
                 >
                   <span class="mb-2 text-base font-semibold text-white">
-                    Find the perfect team to realise your business Gols!
+                    Discover the ideal team to bring your digital dreams to life! 
                   </span>
                   <h2 class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
-                    Get started Today and let us <br class="xs:block hidden" />
-                    Take Care of the{" "}
-                    <span className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-50">
-                      Rest!
+                    Begin your journey today, and leave the rest to us. <br class="xs:block hidden" />
+                    Your web development goals are {" "}
+                    <span className="text-5xl text-blue-500">
+                      our mission.
                     </span>
                   </h2>
                 </motion.div>

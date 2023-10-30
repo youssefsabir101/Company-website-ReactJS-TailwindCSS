@@ -1,18 +1,16 @@
 import React, { useEffect, useRef } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-
 import {motion, useInView, useAnimation} from 'framer-motion';
 const Contact = () => {
     useEffect(() => {
-        document.title="SabirSolutions | Contact";
+        document.title="SabMedia | Contact";
     },[]);
-
     const {innerWidth: Width} = window;
     const ref = useRef();
     const isInView = useInView(ref)
     const mainControlls = useAnimation(isInView);
-    //use effect when page loads
+    
     useEffect(()=> {
         if(isInView) {
             mainControlls.start("visible")
@@ -26,7 +24,7 @@ const Contact = () => {
           <section class="relative z-10 bg-gradient-to-br from-blue-100  py-20  sm:px-20 sm:py-40 ">
             <div class="container mx-auto">
               <div class="-mx-4 flex flex-wrap lg:justify-between">
-                {/* Git in touch  */}
+                
                 <motion.div 
                   variants={{
                                 visible: { opacity: 1, y: 0 },
@@ -138,7 +136,7 @@ const Contact = () => {
                   </div>
                 </motion.div>
                 
-                {/* Form */}
+                
                 <motion.div 
                   variants={{
                                 visible: { opacity: 1, y: 0 },

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { MdVerified } from "react-icons/md";
 import { useAnimation, useInView, motion } from "framer-motion";
-import A from './images/Testimonials/A.png';
+import A from './images/A.png';
 const Review = () => {
   const { innerWidth: Width } = window;
   const ref = useRef();
@@ -390,7 +390,6 @@ const Review = () => {
           </>
         )}
       </section>
-      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
     </div>
   );
 };

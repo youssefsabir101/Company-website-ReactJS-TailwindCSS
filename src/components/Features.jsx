@@ -7,7 +7,7 @@ import {FcLineChart} from "react-icons/fc";
 import {FcRadarPlot} from "react-icons/fc";
 import image1 from "./images/Features/fb11.png";
 import image2 from "./images/Features/fb22.png";
-import { inView, useAnimation, useInView, motion } from "framer-motion";
+import {useAnimation, useInView, motion } from "framer-motion";
 
 const Features = () => {
   const { innerWidth: width, innerHeight: height } = window;
@@ -23,7 +23,7 @@ const Features = () => {
   }, [isInView]);
   return (
     <>
-      <div className="w-[70%] h-[3px] bg-gradient-to-r from-blue-700 to-blue-400"></div>
+      <div className="w-[70%] h-[2px] bg-gradient-to-r from-blue-500 to-blue-200"></div>
       <div className="max-w-screen overflow-x-hidden font-poppins ">
         {/* features section */}
         {width < 631 ? (
@@ -439,7 +439,7 @@ const Features = () => {
 
         {/* end */}
       </div>
-      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-blue-700"></div>
+      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-200 to-blue-500"></div>
     </>
   );
 };

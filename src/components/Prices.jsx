@@ -36,19 +36,19 @@ const Prices = () => {
                 <div>
                   <Card
                     image={<FcBarChart style={{ fontSize: '5rem' }}/>}
-                    Package={"Growth Package"}
-                    Price={"$350"}
-                    Feature1={"Advanced Algorithmic Solutions"}
-                    Feature2={"Trained Personnel Support"}
-                    Feature3={"Innovative Technology Integration"}
-                    Feature4={"Powerful Analytics Capabilities"}
-                    Feature5={"Personalized Solutions"}
-                    Feature6={"Continuous Innovation"}
+                    Package={"Basic Package"}
+                    Price={"$900"}
+                    Feature1={"Modern Website Design"}
+                    Feature2={"Mobile Responsiveness"}
+                    Feature3={"Basic SEO Optimization"}
+                    Feature4={"Contact Form Integration"}
+                    Feature5={"Technical Support"}
+                    Feature6={"Regular Updates"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
-                    iconColor4={"text-blue-300"}
-                    iconColor5={"text-blue-300"}
+                    iconColor4={"text-blue-500"}
+                    iconColor5={"text-blue-500"}
                     iconColor6={"text-blue-300"}
                     buttonBg={"bg-gray-300"}
                     hoverBgButton={"hover:bg-gray-200"}
@@ -58,19 +58,19 @@ const Prices = () => {
                   <Card
                     image={<FcMindMap style={{ fontSize: '5rem' }}/>}
                     Package={"Standard Package"}
-                    Price={"$1200"}
-                    Feature1={"Advanced Algorithmic Solutions"}
-                    Feature2={"Trained Personnel Support"}
-                    Feature3={"Innovative Technology Integration"}
-                    Feature4={"Powerful Analytics Capabilities"}
-                    Feature5={"Personalized Solutions"}
-                    Feature6={"Continuous Innovation"}
+                    Price={"$1500"}
+                    Feature1={"Custom Web Development"}
+                    Feature2={"Advanced SEO Optimization"}
+                    Feature3={"E-commerce Integration"}
+                    Feature4={"Content Management System"}
+                    Feature5={"Analytics Setup"}
+                    Feature6={"Regular Updates"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
                     iconColor4={"text-blue-500"}
-                    iconColor5={"text-blue-300"}
-                    iconColor6={"text-blue-300"}
+                    iconColor5={"text-blue-500"}
+                    iconColor6={"text-blue-500"}
                     buttonBg={"bg-blue-400"}
                     hoverBgButton={"hover:bg-blue-500"}
                     buttonTextColor={"text-white"}
@@ -81,14 +81,14 @@ const Prices = () => {
                 <div>
                   <Card
                     image={<FcFlowChart style={{ fontSize: '5rem' }}/>}
-                    Package={"Enterprise Package"}
-                    Price={"$7500"}
-                    Feature1={"Advanced Algorithmic Solutions"}
-                    Feature2={"Trained Personnel Support"}
-                    Feature3={"Innovative Technology Integration"}
-                    Feature4={"Powerful Analytics Capabilities"}
-                    Feature5={"Personalized Solutions"}
-                    Feature6={"Continuous Innovation"}
+                    Package={"Premium Package"}
+                    Price={"$2500"}
+                    Feature1={"Bespoke Web Solutions"}
+                    Feature2={"SEO & Content Strategy"}
+                    Feature3={"E-commerce Development"}
+                    Feature4={"CRM Integration"}
+                    Feature5={"Performance Monitoring"}
+                    Feature6={"Ongoing Innovation"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
@@ -103,7 +103,7 @@ const Prices = () => {
             </>
           ) : (
             <>
-              <div className="max-w-[1240px] mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="max-w-[1240px] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <motion.div
                   ref={ref}
                   variants={{
@@ -116,19 +116,19 @@ const Prices = () => {
                 >
                   <Card
                     image={<FcBarChart style={{ fontSize: '5rem' }}/>}
-                    Package={"Web Development Package"}
-                    Price={"$450"}
-                    Feature1={"Cutting-Edge Web Solutions"}
-                    Feature2={"Experienced Web Development Support"}
-                    Feature3={"Innovative Technology Implementation"}
-                    Feature4={"Robust Analytical Capabilities"}
-                    Feature5={"Customized Web Solutions"}
-                    Feature6={"Ongoing Innovation"}
+                    Package={"Basic Package"}
+                    Price={"$900"}
+                    Feature1={"Modern Website Design"}
+                    Feature2={"Mobile Responsiveness"}
+                    Feature3={"Basic SEO Optimization"}
+                    Feature4={"Contact Form Integration"}
+                    Feature5={"Technical Support"}
+                    Feature6={"Regular Updates"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
-                    iconColor4={"text-blue-300"}
-                    iconColor5={"text-blue-300"}
+                    iconColor4={"text-blue-500"}
+                    iconColor5={"text-blue-500"}
                     iconColor6={"text-blue-300"}
                     buttonBg={"bg-gray-300"}
                     hoverBgButton={"hover:bg-gray-200"}
@@ -147,19 +147,19 @@ const Prices = () => {
                   <Card
                     image={<FcMindMap style={{ fontSize: '5rem' }}/>}
                     Package={"Standard Package"}
-                    Price={"$1200"}
-                    Feature1={"Advanced Algorithmic Solutions"}
-                    Feature2={"Trained Personnel Support"}
-                    Feature3={"Innovative Technology Integration"}
-                    Feature4={"Powerful Analytics Capabilities"}
-                    Feature5={"Personalized Solutions"}
-                    Feature6={"Continuous Innovation"}
+                    Price={"$1500"}
+                    Feature1={"Custom Web Development"}
+                    Feature2={"Advanced SEO Optimization"}
+                    Feature3={"E-commerce Integration"}
+                    Feature4={"Content Management System"}
+                    Feature5={"Analytics Setup"}
+                    Feature6={"Regular Updates"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
                     iconColor4={"text-blue-500"}
-                    iconColor5={"text-blue-300"}
-                    iconColor6={"text-blue-300"}
+                    iconColor5={"text-blue-500"}
+                    iconColor6={"text-blue-500"}
                     buttonBg={"bg-blue-400"}
                     hoverBgButton={"hover:bg-blue-500"}
                     buttonTextColor={"text-white"}
@@ -180,13 +180,13 @@ const Prices = () => {
                   <Card
                     image={<FcFlowChart style={{ fontSize: '5rem' }}/>}
                     Package={"Enterprise Package"}
-                    Price={"$7500"}
-                    Feature1={"Advanced Algorithmic Solutions"}
-                    Feature2={"Trained Personnel Support"}
-                    Feature3={"Innovative Technology Integration"}
-                    Feature4={"Powerful Analytics Capabilities"}
-                    Feature5={"Personalized Solutions"}
-                    Feature6={"Continuous Innovation"}
+                    Price={"$2500"}
+                    Feature1={"Bespoke Web Solutions"}
+                    Feature2={"SEO & Content Strategy"}
+                    Feature3={"E-commerce Development"}
+                    Feature4={"CRM Integration"}
+                    Feature5={"Performance Monitoring"}
+                    Feature6={"Ongoing Innovation"}
                     iconColor1={"text-blue-500"}
                     iconColor2={"text-blue-500"}
                     iconColor3={"text-blue-500"}
@@ -201,59 +201,55 @@ const Prices = () => {
             </>
           )}
         </>
-
-        {/* cards end */}
       </div>
-      
     </div>
   );
 };
 export default Prices;
 
-
 /* Card */
 
 const Card = ({ standOutBg, marginMiddle, Package, Price, 
-  image,Feature1,Feature2,Feature3,Feature4,Feature5,
-  Feature6, iconColor1,iconColor2,iconColor3,iconColor4,
-  iconColor5,iconColor6, buttonBg,buttonTextColor,hoverBgButton  
-}) => {
-return (
-<div className={`w-full shadow-xl flex flex-col p-4 my-4 bg-white ${standOutBg} ${marginMiddle} rounded-lg hover:scale-105 duration-300`} >
-  <div className="w-20 mx-auto mt-0">
-    {image}
-  </div>
-  <h2 className="text-2xl font-bold text-center">{Package}</h2>
-  <p className="py-2 mx-8 mb-6 -mt-2 flex justify-center text-3xl font-bold">{Price}</p>
-  <div className="text-center font-medium">
-    <p className="py-2 border-b mx-8 flex justify-between">
-      {Feature1}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor1}`} />
-    </p>
-    <p className="py-2 border-b mx-8 flex justify-between">
-      {Feature2}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor2}`} />
-    </p>
-    <p className="py-2 border-b mx-8 flex justify-between">
-      {Feature3}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor3}`} />
-    </p>
-    <p className="py-2 border-b mx-8 flex justify-between">
-      {Feature4}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor4}`} />
-    </p>
-    <p className="py-2 border-b mx-8 flex justify-between">
-      {Feature5}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor5}`} />
-    </p>
-    <p className="py-2  mx-8 flex justify-between">
-      {Feature6}
-      <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor6}`} />
-    </p>
-  </div>
-  <button className={`justify-center flex mx-auto w-[200px] ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 py-3`}>
-    Contact Suport
-  </button>
-</div>
-);
+    image,Feature1,Feature2,Feature3,Feature4,Feature5,
+    Feature6, iconColor1,iconColor2,iconColor3,iconColor4,
+    iconColor5,iconColor6, buttonBg,buttonTextColor,hoverBgButton  
+  }) => {
+    return (
+      <div className={`w-full shadow-xl flex flex-col p-4 my-4 bg-white ${standOutBg} ${marginMiddle} rounded-lg hover:scale-105 duration-300`} >
+        <div className="w-20 mx-auto mt-0">
+          {image}
+        </div>
+        <h2 className="text-2xl font-bold text-center">{Package}</h2>
+        <p className="py-2 mx-8 mb-6 -mt-2 flex justify-center text-3xl font-bold">{Price}</p>
+        <div className="text-center font-medium">
+          <p className="py-2 border-b mx-8 flex justify-between">
+            {Feature1}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor1}`} />
+          </p>
+          <p className="py-2 border-b mx-8 flex justify-between">
+            {Feature2}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor2}`} />
+          </p>
+          <p className="py-2 border-b mx-8 flex justify-between">
+            {Feature3}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor3}`} />
+          </p>
+          <p className="py-2 border-b mx-8 flex justify-between">
+            {Feature4}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor4}`} />
+          </p>
+          <p className="py-2 border-b mx-8 flex justify-between">
+            {Feature5}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor5}`} />
+          </p>
+          <p className="py-2  mx-8 flex justify-between">
+            {Feature6}
+            <BsFillCheckCircleFill className={`ml-2 my-auto ${iconColor6}`} />
+          </p>
+        </div>
+        <button className={`justify-center flex mx-auto w-[200px] ${buttonBg} ${hoverBgButton} ${buttonTextColor} rounded-md font-medium my-6 py-3`}>
+          Contact Suport
+        </button>
+      </div>
+    );
 };

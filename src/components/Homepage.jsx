@@ -8,7 +8,7 @@ import Review from './Review';
 import Footer from './Footer';
 function Homepage() {
   useEffect(() => {
-    document.title="SabirSolutions | Home";
+    document.title="SabMedia | Home";
 },[]);
   return (
     <>

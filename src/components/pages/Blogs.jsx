@@ -1,121 +1,158 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-function Blogs() {
+import blog1 from "../images/blogs/image-01.jpg";
+import blog2 from "../images/blogs/image-02.jpg";
+import blog3 from "../images/blogs/image-03.jpg";
+import { motion } from "framer-motion";
+const Blogs = () => {
     useEffect(() => {
-        document.title="SabirSolutions | Blogs";
+        document.title="SabMedia | Blogs";
     },[]);
   return (
     <>
     <Navbar />
-
-    
       <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20 bg-gradient-to-br from-blue-100">
         <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap justify-center">
+          <motion.div
+                    variants={{
+                      visible: { opacity: 1, y: 0 },
+                      hidden: { opacity: 0, y: -75 },
+                  }}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{ duration: 0.75, delay: 0.25 }} 
+                  class="-mx-4 flex flex-wrap justify-center">
             <div class="w-full px-4">
               <div className="mx-auto mb-12 text-center lg:mb-20">
                 <h2 className="mb-4 text-3xl font-bold text-blue-500 sm:text-4xl md:text-[40px]">
-                Our Recent News
+                  Our Latest Insights
                 </h2>
                 <p className="text-lg text-gray-500">
-                  There are many variations of passages of Lorem Ipsum available
-                    but the majority have suffered alteration in some form.
+                  In the ever-evolving world of web development, we share the latest trends and invaluable 
+                  knowledge to keep you updated.
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
           <div class="-mx-4 flex flex-wrap">
-
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            <motion.div
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 75 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.75, delay: 0.20 }}  
+              class="w-full px-4 md:w-1/2 lg:w-1/3">
               <div class="mx-auto mb-10 max-w-[370px]">
                 <div class="mb-8 overflow-hidden rounded">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-01.jpg"
+                    src={blog1}
                     alt="image"
                     class="w-full"
                   />
                 </div>
                 <div>
                   <span class="bg-blue-400/80 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
-                    Dec 22, 2023
+                    Oct 22, 2023
                   </span>
                   <h3>
                     <a
                       href="javascript:void(0)"
                       class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
-                      Meet AutoManage, the best AI management tools
+                      E-commerce Success Strategies
                     </a>
                   </h3>
                   <p class="text-body-color text-base">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                    Unlocking Online Sales: From Shopping Carts to Checkout Optimization. Tips for E-commerce Excellence.
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            </motion.div>
+            <motion.div
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 75 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.75, delay: 0.40 }}  
+              class="w-full px-4 md:w-1/2 lg:w-1/3">
               <div class="mx-auto mb-10 max-w-[370px]">
                 <div class="mb-8 overflow-hidden rounded">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-02.jpg"
+                    src={blog2}
                     alt="image"
                     class="w-full"
                   />
                 </div>
                 <div>
                   <span class="bg-blue-400/80 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
-                    Mar 15, 2023
+                    Mar 29, 2023
                   </span>
                   <h3>
                     <a
                       href="javascript:void(0)"
                       class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
-                      How to earn more money as a wellness coach
+                      Responsive Web Design
                     </a>
                   </h3>
                   <p class="text-body-color text-base">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                      Crafting Engaging User Experiences with Mobile-Friendly Web Designs. Learn the Essentials of Responsiveness.
                   </p>
                 </div>
               </div>
-            </div>
-            <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+            </motion.div>
+            <motion.div
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 75 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.75, delay: 0.60 }}  
+              class="w-full px-4 md:w-1/2 lg:w-1/3">
               <div class="mx-auto mb-10 max-w-[370px]">
                 <div class="mb-8 overflow-hidden rounded">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/blogs/blog-01/image-03.jpg"
+                    src={blog3}
                     alt="image"
                     class="w-full"
                   />
                 </div>
                 <div>
                   <span class="bg-blue-400/80 mb-5 inline-block rounded py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
-                    Jan 05, 2023
+                    Jan 10, 2023
                   </span>
                   <h3>
                     <a
                       href="javascript:void(0)"
                       class="text-dark hover:text-primary mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                     >
-                      The no-fuss guide to upselling and cross selling
+                      SEO Essentials for Webmasters
                     </a>
                   </h3>
                   <p class="text-body-color text-base">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                    Boosting Visibility and Ranking on Search Engines. Dive into the World of SEO for Web Development.
                   </p>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
           </div>
         </div>
-
-        <div className="flex justify-center space-x-1 dark:text-white">
+        <motion.div
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 75 },
+              }}
+              initial="hidden"
+              animate="visible"
+              transition={{ duration: 0.75, delay: 0.80 }}  
+              className="flex justify-center space-x-1 dark:text-white">
             <button title="previous" type="button" className="inline-flex items-center justify-center w-8 h-8 py-0 rounded-md shadow-md dark:bg-blue-500">
                 <svg viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="w-4">
                     <polyline points="15 18 9 12 15 6"></polyline>
@@ -128,12 +165,10 @@ function Blogs() {
                     <polyline points="9 18 15 12 9 6"></polyline>
                 </svg>
             </button>
-        </div>
+        </motion.div>
       </section>
-
     <Footer />
     </>
   )
 }
-
-export default Blogs
+export default Blogs;
