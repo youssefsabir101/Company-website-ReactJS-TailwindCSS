@@ -2,6 +2,7 @@ import React from 'react';
 import Icon from "./images/favicon.png";
 import { Link } from "react-router-dom";
 import { ImLinkedin2,ImFacebook, ImTwitter } from "react-icons/im";
+import ScrollToTop from 'react-scroll-up';
 const Footer = () => {
   return (
 	<>
@@ -73,6 +74,12 @@ const Footer = () => {
 			</div>
 		</footer>
     </div>
+     {/* scroll to top  */}
+	<ScrollToTop showUnder={160}>
+        <div className="bg-blue-500 w-10 h-10 text-white rounded-full flex items-center justify-center">
+          <span>Top</span>
+        </div>
+      </ScrollToTop>
 	</>
   );
 }

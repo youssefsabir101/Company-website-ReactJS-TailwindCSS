@@ -22,6 +22,10 @@ const About = () => {
     useEffect(() => {
       document.title="SabMedia | About";
   },[]);
+  /* automatically scroll to the top of the page */
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Navbar />

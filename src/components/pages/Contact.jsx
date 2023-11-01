@@ -16,6 +16,10 @@ const Contact = () => {
             mainControlls.start("visible")
         }
     }, [isInView])
+    /* automatically scroll to the top of the page */
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Navbar />

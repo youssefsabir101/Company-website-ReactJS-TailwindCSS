@@ -7,9 +7,13 @@ import CallToAction from './CallToAction';
 import Review from './Review';
 import Footer from './Footer';
 function Homepage() {
-  useEffect(() => {
-    document.title="SabMedia | Home";
-},[]);
+    useEffect(() => {
+      document.title="SabMedia | Home";
+    },[]);
+    /* automatically scroll to the top of the page */
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Navbar />
@@ -23,6 +27,9 @@ function Homepage() {
         <Review />
         <Footer />
       </div>
+      
+      
+
     </>
     
   )

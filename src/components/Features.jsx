@@ -5,8 +5,8 @@ import {FcPositiveDynamic} from "react-icons/fc";
 import {FcComboChart} from "react-icons/fc";
 import {FcLineChart} from "react-icons/fc";
 import {FcRadarPlot} from "react-icons/fc";
-import image1 from "./images/Features/fb11.png";
-import image2 from "./images/Features/fb22.png";
+import image1 from "./images/Features/fb11.jpg";
+import image2 from "./images/Features/fb22.jpg";
 import {useAnimation, useInView, motion } from "framer-motion";
 
 const Features = () => {
