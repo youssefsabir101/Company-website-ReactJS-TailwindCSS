@@ -13,7 +13,7 @@ const CallToAction = () => {
     }, [isInView])
   return (
     <div>
-      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+      <div className="w-[70%]  h-[2px] bg-gradient-to-r from-blue-200 to-blue-500"></div>
       <>
         <section class="py-20 lg:py-[120px]  font-poppins">
           <div class="container mx-auto">
@@ -149,7 +149,7 @@ const CallToAction = () => {
           </div>
         </section>
       </>
-      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-400 to-violet-500"></div>
+      <div className="flex justify-end ml-[30%] w-[70%] h-[2px] bg-gradient-to-r from-blue-200 to-blue-500"></div>
     </div>
   );
 };
