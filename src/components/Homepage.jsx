@@ -19,7 +19,7 @@ function Homepage() {
       <Navbar />
       <Hero />
       
-      <div className="bg-gradient-to-br from-blue-100">
+      <div className="bg-gradient-to-tr from-blue-100">
         
         <Features />
         <Prices />
