@@ -44,11 +44,11 @@ For questions or inquiries, please contact me at [sabircode.me@gmail.com].
 
 ## Images
 
-![homepage](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/c5e7ac80-5ef1-4b52-83b0-98b466551195)
+![homepage](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/008aea0c-8171-43df-b317-80b442c7db58)
 
 ![about](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/9917e9d6-74d9-4a91-a2c6-3e0ec673591b)
 
-![services](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/9c23adfb-5b14-4500-a59f-b9a513e4a5a7)
+![services](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/7ba4f86f-91ca-4c77-9049-e4eae4116f75)
 
 ![blogs](https://github.com/youssefsabir101/Company-website-ReactJS-TailwindCSS/assets/106603638/291817e5-1834-4edc-a811-b549790f7bc9)
 
